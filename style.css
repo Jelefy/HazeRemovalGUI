@@ -1,0 +1,145 @@
+#waiting {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1480px;
+    height: 480px;
+    border-width: 5px;
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: #1347ae;
+}
+
+#waiting-text {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2em;
+}
+
+#container {
+    width: 1400px;
+    height: 420px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#raw {
+    width: 640px;
+    height: 420px;
+}
+
+#padding {
+    width: 120px;
+    height: 420px;
+}
+
+#processed {
+    width: 640px;
+    height: 420px;
+}
+
+#raw-bar-area {
+    display: flex;
+    width: 640px;
+    height: 60px;
+}
+
+#cur-time {
+    position: relative;
+    top: 7.5px;
+    width: 60px;
+    height: 20px;
+    background-color: #101010;
+    border-style: solid;
+    border-color: #3174FD;
+}
+
+#preview-slider {
+    position: relative;
+    top: 5px;
+    width: 520px;
+    height: 25px;
+}
+
+#tot-time {
+    position: relative;
+    top: 7.5px;
+    width: 60px;
+    height: 20px;
+    background-color: #101010;
+    border-style: solid;
+    border-color: #3174FD;
+}
+
+#cur-time-text {
+    position: relative;
+    top: 1.5px;
+    left: 6px;
+    color: white;
+    font-size: 0.75em;
+}
+
+#tot-time-text {
+    position: relative;
+    top: 1.5px;
+    left: 6px;
+    color: white;
+    font-size: 0.75em;
+}
+
+#processed-bar-area {
+    position: relative;
+    display: flex;
+    width: 640px;
+    height: 60px;
+}
+
+#selector-button {
+    position: relative;
+    top: 7.5px;
+    width: 60px;
+    height: 25px;
+    border: none;
+    background-color: #3174FD;
+    color: white;
+}
+
+#selector-button:active {
+    background-color: #1347ae;
+}
+
+#directory-selector {
+    position: relative;
+    left: 5px;
+    top: 7.5px;
+    width: 460px;
+    height: 25px;
+    color: white;
+    background-color: #101010;
+    border: none;
+}
+
+#export-button {
+    position: absolute;
+    top: 7.5px;
+    right: 0px;
+    width: 60px;
+    height: 25px;
+    border: none;
+    background-color: #3174FD;
+    color: white;
+}
+
+#export-button:active {
+    background-color: #1347ae;
+}

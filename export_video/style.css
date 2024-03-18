@@ -1,0 +1,66 @@
+#container {
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 420px;
+}
+
+#info-bar {
+    height: 30px;
+}
+
+#frame-progress {
+    position: absolute;
+    left: 0px;
+    color: white;
+}
+
+#percentage-progress {
+    position: absolute;
+    right: 0px;
+    color: white;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #101010;
+}
+
+#progress-bar-elem {
+    width: 0%;
+    height: 100%;
+    background-color: #3174FD;
+}
+
+#operation-bar {
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+
+#remaining-time-text {
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+#exit-button {
+    position: absolute;
+    right: 0px;
+    width: 60px;
+    height: 25px;
+    border: none;
+    background-color: #3174FD;
+    color: white;
+}
+
+#exit-button:active {
+    background-color: #1347ae;
+}
+
+#exit-button:disabled {
+    background-color: #1347ae;
+}

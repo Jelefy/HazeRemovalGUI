@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <title>视频去雾神器</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="waiting">
+    <div id="waiting-text">请将视频文件拖拽到此处！</div>
+  </div>
+  <div id="container">
+    <div id="raw">
+      <img id="raw-img" />
+      <div id="raw-bar-area">
+        <div id="cur-time">
+          <div id="cur-time-text">00:00:00</div>
+        </div>
+        <input id="preview-slider" type="range" min="0" value="0" />
+        <div id="tot-time">
+          <div id="tot-time-text">00:00:00</div>
+        </div>
+      </div>
+    </div>
+    <div id="padding"></div>
+    <div id="processed">
+      <img id="processed-img" />
+      <div id="processed-bar-area">
+        <button id="selector-button">选择</button>
+        <input id="directory-selector" type="text" />
+        <button id="export-button">导出</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
